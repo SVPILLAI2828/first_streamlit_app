@@ -44,4 +44,4 @@ streamlit.dataframe(my_data_row)
 
 streamlit.header("What fruit would you like to add?:")
 
-#stremalit.text("Thanks for adding: ")
+#streamlit.text("Thanks for adding: ")
