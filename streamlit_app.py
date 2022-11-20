@@ -36,7 +36,7 @@ streamlit.dataframe(fruits_to_show)
 
 #New Section to display fruityvice api response
 streamlit.header('Fruityvice Fruit Advice !')
-#try:
+try:
     fruti_choice = streamlit.text_input('What fruit would you like information about?')
     if not fruit_choice:
         streamlit.error("Please select a fruit to get information")
@@ -46,8 +46,8 @@ streamlit.header('Fruityvice Fruit Advice !')
         streamlit.dataframe(fruityvice_normalized)
    
 
-#except URLError as e:
-     #   streamlit.error()
+    except URLError as e:
+       streamlit.error()
       
 #streamlit.write('The User Entered', fruit_choice)
 
