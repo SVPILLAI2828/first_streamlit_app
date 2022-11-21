@@ -94,3 +94,4 @@ streamlit.write('The User Entered ', fruit_entered)
 my_cur.execute("insert into fruit_load_list values('from stremlit')")
 #
 #
+#
